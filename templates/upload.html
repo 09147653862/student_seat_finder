@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <title>آپلود فایل اکسل</title>
+    <style>
+        body { font-family: Arial, sans-serif; text-align: center; }
+        .container { max-width: 600px; margin: 0 auto; padding: 20px; }
+        input { padding: 10px; margin: 10px; }
+        button { padding: 10px 20px; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>آپلود فایل اکسل</h1>
+        <form method="POST" enctype="multipart/form-data">
+            <label>فایل اکسل:</label>
+            <input type="file" name="file" accept=".xlsx" required>
+            <button type="submit">آپلود</button>
+        </form>
+    </div>
+</body>
+</html>
